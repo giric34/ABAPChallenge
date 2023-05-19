@@ -42,7 +42,7 @@ CLASS ZCL_CL_ABAP2UI5_TEST IMPLEMENTATION.
 
     "view rendering
     client->set_next( VALUE #( xml_main = z2ui5_cl_xml_view=>factory(
-        )->page( title = 'Open Source ABAP - Challenge 2'
+        )->page( title = 'Open Source ABAP - Challenge  Week 2'
             )->simple_form( title = 'Form Title' editable = abap_true
                 )->content( 'form'
                     )->title( 'Input'
